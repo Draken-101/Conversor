@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: gray;
+}
+
+.Controles{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3%;
+    margin-top: 100px;
+}
+
+.I{
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    outline: none;
+    width: 30%;
+    height: 35px;
+    padding: 5px;
+    margin-left: 4%;
+}
+.I:hover{
+    border: 1px solid rgb(34, 34, 34);
+}
+
+.E{
+    background-color: white;
+    overflow-y: scroll;
+    width: 40%;
+    height: 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    flex-wrap: nowrap;
+    outline: none;
+    border: 1px solid black;
+}
+.E::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
